@@ -16,7 +16,7 @@
 2. Les données sont **reproductibles** : `python3 scripts/build_datasets.py` régénère/valide tout depuis les sources.
 3. Licence par défaut : **CC BY 4.0** pour les données factuelles issues de sources publiques ; contenu éditorial du fondateur © titoune33 (voir chaque README).
 
-## Publication cible
+## Publication (en ligne ✅)
 
-- HuggingFace Hub : `titoune33/benchmarks-llm`, `titoune33/drh-conformite`, `titoune33/marches-publics`
-- Ce repo GitHub public sert de source de vérité.
+- 🤗 **HuggingFace** : [titoune33/benchmarks-llm](https://huggingface.co/datasets/titoune33/benchmarks-llm) · [titoune33/drh-conformite](https://huggingface.co/datasets/titoune33/drh-conformite) · [titoune33/marches-publics](https://huggingface.co/datasets/titoune33/marches-publics)
+- 📦 **GitHub** : ce repo (`ai-ecosystem/datasets`) est la source de vérité — `scripts/build_datasets.py` régénère tout.
