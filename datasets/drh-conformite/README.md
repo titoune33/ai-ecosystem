@@ -1,3 +1,19 @@
+---
+license: other
+license_name: titoune33-content
+license_link: https://github.com/titoune33/ai-ecosystem
+language:
+  - fr
+pretty_name: drh-conformite
+tags:
+  - hr
+  - compliance
+  - france
+  - salary-transparency
+  - egapro
+  - rag
+---
+
 # 📚 drh-conformite — Corpus RAG « RH & conformité »
 
 Corpus documentaire du cluster RH (Libera RH / PeoplePulse), prêt pour le RAG

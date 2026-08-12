@@ -2,7 +2,7 @@
 
 > Priorisé par impact / effort. Chaque phase est indépendante.
 
-## Phase 1 — Nettoyage & fondations (fait dans ce dépôt ✅)
+## Phase 1 — Nettoyage & fondations (fait ✅)
 
 - [x] Cartographie complète du portefeuille (`INVENTAIRE.md`)
 - [x] Architecture cible et briques partagées (`ARCHITECTURE.md`)
@@ -10,18 +10,19 @@
 - [x] Specs des packages partagés
 - [x] Nettoyage GitHub : descriptions, archive de `talent-pulse-`
 
-## Phase 2 — Consolidation RH (le cœur du portefeuille)
+## Phase 2 — Consolidation RH (fait ✅)
 
-- [ ] **Fusionner Libera RH + PeoplePulse + TalentPulse en une plateforme** : un seul repo public `libera-rh` (conformité salariale) + module analytics (attrition) — même auth, même billing (saaskit), même llm-gateway
-- [ ] Rendre public `equilibre-transparence-salariale` (→ `libera-rh`) après vérification des secrets
-- [ ] Fusionner `bureauergo`/`nichesite` et `agrinorm` ×3
+- [x] **Libera RH devient LA plateforme** : repo public `libera-rh` (ex-`equilibre-transparence-salariale`)
+- [x] Module **attrition** intégré (ex-TalentPulse/PeoplePulse) : scoring déterministe porté en TS, page « Risque de départ », endpoint `/api/attrition`
+- [x] Vérification secrets avant passage public (aucun `.env` suivi, audit `git grep`)
+- [x] `talent-pulse-` archivé ; `TalentPulse` + `peoplepulse-hr-saas` marqués « absorbés »
 
-## Phase 3 — Industrialiser la couche IA
+## Phase 3 — Industrialiser la couche IA (fait ✅)
 
-- [ ] Implémenter `packages/llm-gateway` (TypeScript, d'abord dans le monorepo `saaskit`)
-- [ ] Brancher le RAG `drh-conformite` dans le copilote Libera RH
-- [ ] Publier les datasets sur HuggingFace (`titoune33/benchmarks-llm`, `titoune33/drh-conformite`)
-- [ ] Dashboard usage/coût LLM par produit
+- [x] **`llm-gateway` implémenté** (`packages/llm-gateway` dans libera-rh) : routage par tâche (DeepSeek/Qwen/MiMo/Nemotron/Mistral), fallback auto, budget, cache 10 min, coûts — 12 tests unitaires + smoke test réel conditionnel
+- [x] `api/assistant.ts` refactorisé sur le gateway (contrat frontend inchangé)
+- [x] Datasets publiés sur HuggingFace (`titoune33/benchmarks-llm`, `titoune33/drh-conformite`)
+- [ ] Dashboard usage/coût LLM par produit (reste : UI simple sur le compteur du gateway)
 
 ## Phase 4 — Monétiser la donnée
 

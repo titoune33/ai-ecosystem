@@ -1,3 +1,14 @@
+---
+license: cc0-1.0
+language:
+  - fr
+pretty_name: marches-publics
+tags:
+  - public-procurement
+  - boamp
+  - france
+---
+
 # 📄 marches-publics — Corpus appels d'offres publics
 
 Dataset cible : les avis de marchés publics (BOAMP / TED / profils d'acheteurs)

@@ -7,12 +7,12 @@
 
 | Repo | Visibilité | Stack | Statut | Produit / rôle |
 |---|---|---|---|---|
+| `libera-rh` (ex-`equilibre-transparence-salariale`) | **public** ✅ | React+Vite, API Vercel, Airtable, Stripe, **llm-gateway** | 🟢 | **LA plateforme RH** : conformité salariale (Egapro, UE 2023/970) + benchmark + **module attrition** (ex-TalentPulse/PeoplePulse) — [libera-rh.vercel.app](https://libera-rh.vercel.app) |
 | `murmure` | public | HTML, Express+SQLite | 🟢 | Journal vocal one-page — [murmure-rho.vercel.app](https://murmure-rho.vercel.app) |
-| `equilibre-transparence-salariale` | **privé** | React+Vite, API Vercel, Airtable, Stripe | 🟢 | **Libera RH / Équitia** — SaaS conformité salariale (Egapro, directive UE 2023/970) — [libera-rh.vercel.app](https://libera-rh.vercel.app) |
-| `TalentPulse` | public | FastAPI (Python) + Airtable | 🟡 | Prédiction d'attrition — [talent-pulse-five.vercel.app](https://talent-pulse-five.vercel.app) |
-| `peoplepulse-hr-saas` | public | Next.js, Prisma, libsql | 🟢 | **PeoplePulse** — analytics RH (attrition, reporting) |
+| `peoplepulse-hr-saas` | public | Next.js, Prisma, libsql | 🟡 | **Absorbé par libera-rh** (module attrition) — gardé comme référence |
 | `autoao-saas` | public | TypeScript (Next.js) | 🟢 | **AutoAO** — réponses IA aux appels d'offres publics |
-| `talent-pulse-` | public | — | 🔴 | **Doublon mort** : coquille vide (README + 2 dossiers vides), devancé par `TalentPulse` → à archiver |
+| `TalentPulse` | public | FastAPI (Python) + Airtable | 🟡 | **Absorbé par libera-rh** (scoring porté en TS) — gardé comme référence |
+| `talent-pulse-` | public | — | 🔴 | **Archivé** (coquille vide) |
 | `mistral` | privé | JavaScript | 🟡 | Expérimentations « pour tout faire » |
 
 ## 2. Projets locaux (~/Projects, ~/tout mes saas créées)

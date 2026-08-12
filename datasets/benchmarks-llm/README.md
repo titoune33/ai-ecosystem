@@ -1,3 +1,20 @@
+---
+license: cc-by-4.0
+language:
+  - fr
+  - en
+pretty_name: benchmarks-llm
+tags:
+  - llm
+  - benchmarks
+  - artificial-analysis
+  - deepseek
+  - mistral
+  - nvidia-nemotron
+  - xiaomi-mimo
+  - model-routing
+---
+
 # 🤖 benchmarks-llm
 
 Comparaisons de modèles LLM établies à partir de sources publiques (Artificial Analysis, BenchLM, Vals.ai, NVIDIA, OpenRouter, docs officielles) et des rapports internes titoune33 (11-12/08/2026).
