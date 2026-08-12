@@ -28,7 +28,7 @@
 
 - [ ] Corpus marchés publics : pipeline de collecte BOAMP (autoao) → dataset
 - [ ] Dataset aides non réclamées (`aides-non-requises`) : base sourcée de Failles + candidats du scanner → RAG produit + contenu SEO
-- [ ] Brancher Stripe sur Failles (plan Premium 9 €/mois) + cron hebdo du scanner
+- [ ] Brancher Stripe sur Failles (plan Premium 9 €/mois) — code prêt (checkout + cookie signé + webhook), il reste à fournir la clé Stripe (`scripts/stripe-setup.js`) + cron hebdo du scanner ✅ actif
 - [ ] Dataset pentest anonymisé → contenu blog/branding sécurité
 - [ ] Guides DRH → lead magnets + RAG public (portail)
 
