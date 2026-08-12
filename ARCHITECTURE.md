@@ -12,7 +12,7 @@
 ┌─────────────────────────────────────────────────────────────┐
 │  PRODUITS (repos indépendants)                              │
 │  libera-rh · peoplepulse · autoao · plombio · murmure ·     │
-│  nichesite · extensions · agentic-inbox                     │
+│  failles · nichesite · extensions · agentic-inbox           │
 └───────────────┬───────────────────────────┬─────────────────┘
                 │ consomme                  │ publie
 ┌───────────────▼──────────────────┐  ┌─────▼──────────────────┐
@@ -63,6 +63,7 @@ Sources (données publiques)           Datasets (publiés)          Produits (co
 Benchmarks Artificial Analysis ──►    benchmarks-llm/        ──►  choix modèle llm-gateway
 Guides DRH / analyse concurrentielle ► drh-conformite/       ──►  copilote Libera RH
 BOAMP / AO publiques (autoao)    ──►  marches-publics/       ──►  AutoAO
+APIs publiques (data.gouv.fr, aides-territoires) ─► aides-non-requises/ ─► Failles (matching)
 Rapports pentest (anonymisés)    ──►  pentest/               ──►  bugbounty-kit, blog sécu
 ```
 

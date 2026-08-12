@@ -28,6 +28,7 @@
 | `peoplepulse` (local) | Next.js, Prisma, libsql | 🟢 | Version locale de PeoplePulse |
 | `nexus` | React+Vite / Express+SQLite+JWT+WS | 🟡 | SaaS project management |
 | `saaskit` | Next.js, Prisma, NextAuth, Stripe | 🟢 | **Starter kit SaaS** — la base commune de tous les SaaS |
+| `failles` (dans « tout mes saas créées ») | React+Vite, API Vercel, JSON sourcé | 🟢 | **Failles** — « Le Shodan des failles capitalistes » : aides oubliées & optimisations légales — [failles.vercel.app](https://failles.vercel.app) (repo GitHub : à créer) |
 | `mon-api-vercel` | — | 🟡 | Mini-API de test Vercel |
 
 ### Sites de niche / SEO monétisés
@@ -64,12 +65,13 @@
 | `docs/positionnement.md` | Positionnement produit | → README du corpus |
 | `~/Downloads/pentest frebuf/`, `~/pentest/`, `~/open code pentest/` | Rapports de pentest (keycloak, exodus, chia, chainlink…) | → `datasets/pentest/` (index anonymisé) |
 
-## 4. Synthèse : les 4 clusters
+## 4. Synthèse : les 5 clusters
 
 1. **RH & conformité (le cœur)** : Libera RH + PeoplePulse + TalentPulse + guides/analyses DRH → **une plateforme RH, deux modules**.
 2. **Marchés publics** : AutoAO (+ plombio comme terrain d'essai devis/factures).
 3. **Niche SEO** : BureauErgo, simulateur-financier → usine à sites.
 4. **Outillage IA** : saaskit, llm-gateway (à créer), last30days, agentic-inbox, datasets.
+5. **Failles / optimisation financière légale** : Failles (aides non réclamées, crédits d'impôt, droits) + bot scanner → dataset `aides-non-requises` réutilisable (RAG, contenu SEO).
 
 ## 5. Dette technique détectée
 

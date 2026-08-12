@@ -26,6 +26,8 @@
 ## Phase 4 — Monétiser la donnée
 
 - [ ] Corpus marchés publics : pipeline de collecte BOAMP (autoao) → dataset
+- [ ] Dataset aides non réclamées (`aides-non-requises`) : base sourcée de Failles + candidats du scanner → RAG produit + contenu SEO
+- [ ] Brancher Stripe sur Failles (plan Premium 9 €/mois) + cron hebdo du scanner
 - [ ] Dataset pentest anonymisé → contenu blog/branding sécurité
 - [ ] Guides DRH → lead magnets + RAG public (portail)
 
